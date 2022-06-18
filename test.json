@@ -1,0 +1,8 @@
+{
+    "columns": [ "Dept", "NoteTime", "Note", "Episode->RefDoc", "Episode->RefDoc->Clinic" ],
+    "fields": [
+        { "name": "NoteTime", "oper": ">=", "value" : "2022-06-01" },
+		{ "name": "NoteTime", "oper": "<=", "value" : "2022-06-10" },
+		{ "name": "Dept", "oper": "IN", "value": [ 25, 26, 24, 27 ] }
+    ]
+}
